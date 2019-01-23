@@ -1,0 +1,111 @@
+body{
+    background-color:#5fa5b0 ;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: #37474F;
+}
+
+#mainNavbar .navbar-brand {
+    color: #37474F;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background:#db8194;
+    transition: background 500ms;
+    opacity: 0.75;
+}
+
+.carousel-caption{
+    text-align: left;
+    bottom:10%;
+    font-size:70px;
+    left:5%;
+    font-family: 'Nunito Sans', sans-serif;
+    opacity: 0.7;
+}
+
+@media (max-width: 800px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+#color{
+    color: #5fa5b0;
+}
+#pdf{
+    color: #5fa5b0; 
+}
+
+#about{
+    opacity:0.6;
+}
+#title{
+    font-size:70px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2.4px;
+}
+.content {
+   padding:80px 20px;
+   background:white; 
+}
+
+.flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-height: 320px;
+    max-width: auto;
+}
+
+#img_head{
+    margin-bottom: 10%;
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(90%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(90%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+#comments{
+    background-image: url("body_1.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+.form-control:-moz-user-disabled{
+    background-color: pink;
+}
+footer.container{
+    min-height: 50px;
+}

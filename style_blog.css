@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+.grid-container{
+	display: grid;
+	float: center;
+	width: 50%;
+	margin:auto;
+	border:20px solid #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+
+}
+.item1{
+	margin: 20px;
+	border-bottom: 0.5px solid #bdc3c7;
+}
+.item2{
+	margin:0px 20px 20px 20px;
+	
+}
+h2{
+	font-size: 2.0rem;
+  font-weight: bold;
+  color: #2c3e50;
+	
+}
+h4{
+	margin-top: 0px;
+	color: #3498db;
+	letter-spacing: 0.2rem;
+}
+#with_border{
+	border-left: 5px solid #bdc3c7;
+
+}
+#with_margin{
+	margin-left: 5px;
+}
